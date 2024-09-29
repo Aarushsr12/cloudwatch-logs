@@ -1,0 +1,19 @@
+{
+  "name": "cloudwatch-poc",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.658.1",
+    "@aws-sdk/client-s3": "^3.658.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0"
+  },
+  "type": "module"
+}
